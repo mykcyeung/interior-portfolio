@@ -38,7 +38,7 @@ const Contact = () => {
 
   return (
     <div className='h-screen flex flex-col justify-center items-center' id="#contact">
-      <div className="text-2xl font-bold lg:text-4xl md:text-3xl mt-8 self-start lg:self-center lg:underline">Let's get in touch!</div>
+      <div className="text-xl font-bold lg:text-4xl md:text-3xl mt-8 self-start lg:self-center md:underline">Let's get in touch!</div>
       {/* CARD CONTAINER*/}
       <div className="flex flex-col lg:flex-row lg:items-center items-start justify-center gap-16 lg:gap-24 mt-20">
         {/* NAME */}
@@ -62,13 +62,13 @@ const Contact = () => {
           <textarea
             rows={6}
             placeholder='How are you today'
-            className='resize-none min-h-[30vh] px-1 py-2 rounded-sm'
+            className='resize-none min-h-[30vh] px-1 py-2 rounded-sm bg-gray-100 '
             name="user_message"
           />
           <input
             type="text"
             placeholder="What's your email"
-            className="text-sm px-1 py-2 rounded-sm"
+            className="text-sm px-1 py-2 rounded-sm bg-gray-100 "
             name="user_email"
           />
           <div className="mt-3 flex flex-row justify-between items-center">

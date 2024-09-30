@@ -23,7 +23,7 @@ const ExperiencePage = () => {
           // style={{scale: opacityText}}
           className="flex flex-col justify-center items-center">
         <div className="text-6xl md:text-8xl font-bold mb-16 underline">Experience</div>
-        <div className="text-xs mb-52 tracking-wide md:tracking-widest font-bold">Space Planning | 3D Visualiser | Technical Drawings</div>
+        <div className="text-xs mb-52 tracking-wide md:tracking-widest font-bold">Project Organization | 3D Visualiser | Technical Drawings</div>
         </motion.div>
         
 
@@ -283,6 +283,14 @@ const ExperiencePage = () => {
           </div>
 
         </div>
+        <Link
+          href="/CV_Jay_2024_BW.pdf"
+          download
+          target='_blank'
+          className='bg-gray-300 text-white px-6 py-2 rounded-full mt-12 hover:bg-orange duration-200 ease-in'
+        >
+          Download my CV
+        </Link>
      </div>
     </div>
   )

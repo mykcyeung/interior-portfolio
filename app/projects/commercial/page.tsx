@@ -7,7 +7,7 @@ const CommercialPage = () => {
     <div className="screen">
       <div className="flex-col gap-20 justify-center flex items-center">
 
-        <div className="font-bold mt-36 text-4xl underline">Commercial Projects</div>
+        <div className="font-bold mt-48 mb-20 text-2xl underline md:text-4xl">Commercial Projects</div>
 
         {/* PROJECT CARD CONTAINER */}
         <div className="grid grid-cols-1 gap-4 lg:grid-cols-2 lg:w-full lg:gap-16 ">
