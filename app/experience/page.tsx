@@ -39,33 +39,42 @@ const ExperiencePage = () => {
             // style={{scale: scaleText}}
           className=" flex flex-row gap-10 items-start justify-center h-auto">
           {/* LEFT */}
-          <div className="text-xs w-1/3 min-w-[130px] justify-end ">Oct 2018 - May 2024 <br />| 6 years</div>
+          <div className="text-xs w-1/3 min-w-[130px] justify-end ">Oct 2018 - Aug 2024 <br />| 5 years 10 months</div>
           
           {/* RIGHT */}
           <div className="">
-            <div className="mb-4 font-bold text-2xl ">Designer</div>
+            <div className="mb-4 font-bold text-2xl ">3D Renderer and Designer</div>
             <div className="text-sm font-bold mb-10">Pro One design & construction Limited</div>
             <div className="md:text-sm text-xs font-extralight">
               <div className="flex flex-row gap-2">
                 <div className="">•</div>
                 <div className="mb-3 md:mb-5">
-                Analyzed client needs and preferences to determine project goals, objectives, and design solutions, ensuring tailored approaches that align with their vision.
+                Handled FF&E procurement, and installation, ensuring quality and consistency across projects.
                 </div>
               </div>
 
               <div className="flex flex-row gap-2">
                 <div className="">•</div>
                 <div className="mb-3 md:mb-5">
-                Led the complete drawing process, from technical drawings and renderings to modifications and final layouts, successfully completing numerous projects.
+                Communicate and cooperate closely with project leader to ensure smooth delivery of space on time and on budget.
+                </div>
+                </div>
+                
+                <div className="flex flex-row gap-2">
+                <div className="">•</div>
+                <div className="mb-3 md:mb-5">
+                Created clear, detailed drawing packages covering everything from technical plans to final layouts, including accurate renderings and adjustments. These thorough drawings boosted installation efficiency and reduced misunderstandings, helping projects run smoothly and on schedule.
                 </div>
               </div>
 
               <div className="flex flex-row gap-2 mb-10">
                 <div className="">•</div>
                 <div className="md:mb-5">
-                Collaborated closely with the project leader to ensure smooth delivery of spaces on time and within budget, enhancing overall project efficiency.
+                Developed a bespoke design concept for brands, elevating the brand's retail presence and improving customer engagement.
                 </div>
-              </div>
+                
+                </div>
+                
               
             
               <div className="flex flex-col lg:flex-row gap-2 mb-6">
@@ -106,30 +115,45 @@ const ExperiencePage = () => {
               <div className="flex flex-row gap-2">
                 <div className="">•</div>
                 <div className="mb-3 md:mb-5">
-                Completed a variety of residential and commercial projects, working closely with team members to deliver high-quality results.
+                Completed a wide range of projects with working team, including residential and commercial projects.
                 </div>
               </div>
 
               <div className="flex flex-row gap-2">
                 <div className="">•</div>
                 <div className="mb-3 md:mb-5">
-                Coordinated with clients, consultants, and contractors to make sure projects were completed on time and ran smoothly.
+                Coordinated with clients, consultants, and contractors to ensure timely project execution that met business requirements.
                 </div>
               </div>
 
               <div className="flex flex-row gap-2">
                 <div className="">•</div>
                 <div className="mb-3 md:mb-5">
-                Managed project timelines to ensure they were finished on schedule and within budget.
+                Conducted site visits to monitor progress and ensure adherence to design specifications.
+                </div>
+                </div>
+                
+                <div className="flex flex-row gap-2">
+                <div className="">•</div>
+                <div className="mb-3 md:mb-5">
+                Managed projects to completion ahead of deadlines, providing clear instructions and detailed drawings that cut project delays. This approach helped streamline the work process and kept everyone aligned, ensuring smooth progress and timely delivery.
+                </div>
+                </div>
+                
+                <div className="flex flex-row gap-2">
+                <div className="">•</div>
+                <div className="mb-3 md:mb-5">
+                Improved project efficiency by providing clear instructions and detailed drawings, reducing delays and ensuring smooth execution.
                 </div>
               </div>
 
               <div className="flex flex-row gap-2 mb-10">
                 <div className="">•</div>
                 <div className="md:mb-5">
-                Improved communication between all parties involved, leading to better client satisfaction and smoother project management.
+                Strengthened client relationships through effective collaboration, aligning project outcomes with client expectation.
                 </div>
-              </div>
+                </div>
+                
               
             
               {/* <div className="flex flex-col lg:flex-row gap-2 mb-6">
@@ -173,14 +197,21 @@ const ExperiencePage = () => {
               <div className="flex flex-row gap-2">
                 <div className="">•</div>
                 <div className="mb-3 md:mb-5">
-                Collaborated closely with the brand marketing team and other stakeholders to transform creative ideas into fully realised visual executions, ensuring design alignment with brand strategies across multiple commercial projects.
+                Cooperate with brand marketing team and related parties to develop the creative ideas to visual execution.
+                </div>
+                </div>
+                
+              <div className="flex flex-row gap-2">
+                <div className="">•</div>
+                <div className="mb-3 md:mb-5">
+                Created clear construction drawings that helped improve collaboration with other designers. By providing these detailed drawings, ensured that all team members were aligned, leading to a smoother workflow throughout the project.
                 </div>
               </div>
 
               <div className="flex flex-row gap-2 mb-10">
                 <div className="">•</div>
                 <div className="mb-3 md:mb-5">
-                Contributed to the preparation of comprehensive construction documents, including detailed plans, elevations, sections, and specifications, supporting the successful delivery.
+                Produced compelling visual concepts for interior spaces, utilizing design software such as AutoCAD and SketchUp, which enhanced clarity and precision in project visualizations.
                 </div>
               </div>
             
@@ -226,21 +257,21 @@ const ExperiencePage = () => {
               <div className="flex flex-row gap-2">
                 <div className="">•</div>
                 <div className="mb-3 md:mb-5">
-                Led the preparation and delivery of interior design presentations and full sets of construction drawings, ensuring clarity and accuracy.
+                Managed interior design presentations and produced comprehensive construction drawings, delivering clear visuals and detailed plans that aligned with client expectations.
                 </div>
               </div>
 
               <div className="flex flex-row gap-2">
                 <div className="">•</div>
                 <div className="mb-3 md:mb-5">
-                Managed the sourcing of design materials and accessories, consistently delivering high-quality selections within budget.
+                Led sourcing for materials and accessories, carefully selecting items that aligned with project aesthetics, budget, and quality standards.
                 </div>
-              </div>
+                </div>
             
               <div className="flex flex-row gap-2 mb-10">
                 <div className="">•</div>
                 <div className="mb-3 md:mb-5">
-                Conducted regular site visits to monitor progress, ensuring that the design was implemented according to specifications, and reported updates to the Project Manager. This proactive approach helped resolve on-site issues swiftly.
+                Conducted regular site visits to monitor progress and provided updates to the Project Manager, ensuring alignment with design specifications and timelines.
                 </div>
               </div>
               
@@ -284,7 +315,7 @@ const ExperiencePage = () => {
 
         </div>
         <Link
-          href="/CV_Jay_2024_BW.pdf"
+          href="/Jay-Resume-InteriorDesign.pdf"
           download
           target='_blank'
           className='bg-gray-300 text-white px-6 py-2 rounded-full mt-12 hover:bg-orange duration-200 ease-in'

@@ -12,7 +12,7 @@ const Footer = () => {
       {/* <div className="font-bold text-3xl">Jay Yeung</div> */}
       <div className="flex flex-row justify-center items-center gap-12">
         {socialMedia.map(item => (
-          <Link href={item.url} key={item.media}>
+          <Link href={item.url} key={item.media} target='_blank'>
             <Image
               src={item.img}
               alt={item.media}

@@ -6,8 +6,9 @@ export const navLinks = [
 ]
 
 export const socialMedia = [
-  { media: "linkedin", url: "https://www.linkedin.com/in/jay-kcy-aa7926254", img: "/linkedin-logo.svg" },
-  { media: "github", url: "https://github.com/mykcyeung", img: "/github-logo.svg"}
+  { media: "linkedin", url: "https://www.linkedin.com/in/jay-yeung-aa7926254/", img: "/linkedin-logo.svg" },
+  { media: "github", url: "https://github.com/mykcyeung", img: "/github-logo.svg" },
+  {media: "whatsapp",url: "https://wa.me/447826182904", img: "/whatsapp.png"}
 ]
 
 export const residentialCard = [

@@ -40,11 +40,11 @@ const Contact = () => {
     <div className='h-screen flex flex-col justify-center items-center' id="#contact">
       <div className="text-xl font-bold lg:text-4xl md:text-3xl mt-8 self-start lg:self-center md:underline">Let's get in touch!</div>
       {/* CARD CONTAINER*/}
-      <div className="flex flex-col lg:flex-row lg:items-center items-start justify-center gap-16 lg:gap-24 mt-20">
+      <div className="flex flex-col lg:flex-row lg:items-center items-start justify-center gap-16 lg:gap-24 mt-20 ">
         {/* NAME */}
         <div className="flex gap-4 lg:gap-6 items-center justify-center">
           <div className="font-extrabold text-2xl  lg:text-4xl lg:min-w-[200px]">Jay Yeung</div>
-          <Link href="https://wa.me/447826182904">
+          <Link href="https://wa.me/447826182904" target="_blank">
              <IoLogoWhatsapp style={{height: 30, width:30}} />
           </Link>
         </div>
@@ -77,7 +77,7 @@ const Contact = () => {
           </button>
             <div className="flex flex-row gap-4 md:gap-6 lg:gap-8">
             {socialMedia.map(item => (
-          <Link href={item.url} key={item.media}>
+          <Link href={item.url} key={item.media} target="_blank">
             <Image
               src={item.img}
               alt={item.media}
