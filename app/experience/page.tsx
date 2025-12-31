@@ -27,9 +27,94 @@ const ExperiencePage = () => {
         </motion.div>
         
 
-        {/* PRO ONE */}
+        
+        
+        
         {/* CONTAINER */}
         <div className=" flex flex-col max-w-[900px]">
+
+          {/* Cochrane */}
+        <motion.div
+          variants={textVariant}
+          initial="hidden"
+          whileInView="visible"
+          viewport={{once: true}}
+          transition={{duration: 2}}
+          className=" flex flex-row gap-10 items-start justify-center my-20 h-auto ">
+          {/* LEFT */}
+          <div className="text-xs w-1/3 min-w-[130px] justify-end">Jul 2025 - Present <br />| 3 years 11 months</div>
+          
+          {/* RIGHT */}
+          <div className="">
+            <div className="mb-4 font-bold text-2xl ">Design Technician</div>
+            <div className="text-sm font-bold mb-10">Cochrane Design London</div>
+            <div className="md:text-sm text-xs font-extralight">
+              <div className="flex flex-row gap-2">
+                <div className="">•</div>
+                <div className="mb-3 md:mb-5">
+                Produced accurate 2D CAD drawings including plans, elevations, sections, and construction details using AutoCAD.
+                </div>
+              </div>
+
+              <div className="flex flex-row gap-2">
+                <div className="">•</div>
+                <div className="mb-3 md:mb-5">
+                Prepared technical drawing packages for design development, planning, and construction stages.
+                </div>
+              </div>
+
+              <div className="flex flex-row gap-2">
+                <div className="">•</div>
+                <div className="mb-3 md:mb-5">
+                Created 3D models and visualisations using SketchUp to support design presentation and client understanding.
+                </div>
+                </div>
+                
+                <div className="flex flex-row gap-2">
+                <div className="">•</div>
+                <div className="mb-3 md:mb-5">
+                Generated rendered views, perspectives, and walkthrough videos to help clients visualise spatial layouts, materials, and finishes,
+reducing design turnaround time and accelerating client approval processes.
+                </div>
+                </div>
+                
+                <div className="flex flex-row gap-2">
+                <div className="">•</div>
+                <div className="mb-3 md:mb-5">
+                Updated and revised drawings in response to client feedback, design changes, and site requirements.
+                </div>
+              </div>
+
+              <div className="flex flex-row gap-2 mb-10">
+                <div className="">•</div>
+                <div className="md:mb-5">
+                Proposed material selections to clearly communicate design concepts and improve client understanding and decision-making.
+                </div>
+                </div>
+                
+              
+            
+              {/* <div className="flex flex-col lg:flex-row gap-2 mb-6">
+                <div className="font-bold  min-w-[80px]">Key Project:</div>
+                <div className="">dyson, Panasonic, Rasonic, Tefal and more.</div>
+                
+              </div> */}
+                <div className="flex flex-col lg:flex-row gap-1 pb-6">
+                <div className="font-bold text-md mr-2">Skills:</div>
+                <div className=" ">
+                  <br /> AutoCAD | Sketch up | Enscape | Adobe Suites | Material Selection
+                </div>
+                </div>
+            </div>
+            <Link href="/projects/residence" className='font-bold hover:underline hover:text-orange duration-200'>see projects</Link>
+
+            <div className="w-full h-[1px] bg-unselect rounded-sm mt-14"/>
+          </div>
+          
+        </motion.div>
+
+          
+          {/* PRO ONE */}
         <motion.div
           variants={textVariant}
           initial="hidden"
@@ -297,7 +382,7 @@ const ExperiencePage = () => {
         </div>
         <div className="mt-20 w-full flex flex-col justify-center items-center rounded-md shadow-md px-4 py-12 gap-8">
           <div className="font-bold text-xl">Software Skills</div>
-          <div className="grid grid-cols-4 lg:grid-cols-7 justify-center gap-10 items-center">
+          <div className="grid grid-cols-4 lg:grid-cols-8 justify-center gap-10 items-center">
             {skillsIcons.map(icon => (
               <div className="flex flex-col justify-evenly items-center gap-2 hover:scale-110 duration-200" key={icon.title}>
                 <Image

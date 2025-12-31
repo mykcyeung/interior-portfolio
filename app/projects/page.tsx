@@ -32,8 +32,8 @@ const ProjectsPage = () => {
           <Image
             src="/commercial/japanese_restaurant/japanese-restaurant-v2.jpg"
             alt='janpanese restaurant v1'
-            width={800}
-            height={400}
+            width={1100}
+            height={619}
             className='object-contain'
           />
           </Link>

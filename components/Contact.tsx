@@ -44,7 +44,7 @@ const Contact = () => {
         {/* NAME */}
         <div className="flex gap-4 lg:gap-6 items-center justify-center">
           <div className="font-extrabold text-2xl  lg:text-4xl lg:min-w-[200px]">Jay Yeung</div>
-          <Link href="https://wa.me/447826182904" target="_blank">
+          <Link href="https://wa.me/447353791838" target="_blank">
              <IoLogoWhatsapp style={{height: 30, width:30}} />
           </Link>
         </div>

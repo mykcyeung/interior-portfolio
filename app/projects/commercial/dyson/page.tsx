@@ -52,7 +52,7 @@ const DysonPage = () => {
 
 
             <div className=" flex flex-col jc items-center">
-            <p className='text-xs mb-12'>Address: J Select Pop-corn | Year Completed: 2023</p>
+            
             
             <Image
             src="/commercial/dyson/dyson-08.png"

@@ -19,6 +19,7 @@ export const residentialCard = [
 
 export const commercialCard = [
   { title: "dyson", img: "/commercial/dyson/dyson-01.png", url: "/projects/commercial/dyson", path: "dyson" },
+  { title: 'American Barbecue', img: '/commercial/american_barbecue/american_barbecue_01.jpg', url: "/projects/commercial/american-barbecue", path: "american-barbecue"},
   { title: "Japanese Restaurant", img: "/commercial/japanese_restaurant/japanese-restaurant-v1.jpg", url: "/projects/commercial/japanese-restaurant", path: "japanese-restaurant" },
   { title: "melissa", img: "/commercial/melissa/melissa-front.jpg", url: "/projects/commercial/melissa", path: "melissa" },
   { title: "Gourami", img: "/commercial/gourami/gourami-01.png", url: "/projects/commercial/gourami", path: "gourami" },
@@ -33,6 +34,7 @@ export const skillsIcons = [
   { img: "/3dmax.svg", title: "3Ds Max" },
   { img: "/autocad.svg", title: "AutoCad" },
   { img: "/sketchup.svg", title: "SketchUp" },
+  { img: "/enscape.png", title: "Enscape" },
   { img: "/sketchup-layout.svg", title: "Layout" },
   { img: "/revit.svg", title: "Revit" },
   { img: "/photoshop.svg", title: "Photoshop" },
