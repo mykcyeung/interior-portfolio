@@ -8,6 +8,22 @@ import Image from 'next/image'
 
 
 const ExperiencePage = () => {
+
+  function getDurationFromJuly2025() {
+  const start = new Date(2025, 6); // July = 6 (0-based)
+  const now = new Date();
+
+  let years = now.getFullYear() - start.getFullYear();
+  let months = now.getMonth() - start.getMonth();
+
+  if (months < 0) {
+    years--;
+    months += 12;
+  }
+
+  return `${years} years ${months} months`;
+}
+
   const textVariant =  {
     hidden: { opacity: 0, y: 10 },
     visible: { opacity: 1, y:0 },
@@ -42,7 +58,7 @@ const ExperiencePage = () => {
           transition={{duration: 2}}
           className=" flex flex-row gap-10 items-start justify-center my-20 h-auto ">
           {/* LEFT */}
-          <div className="text-xs w-1/3 min-w-[130px] justify-end">Jul 2025 - Present <br />| 3 years 11 months</div>
+          <div className="text-xs w-1/3 min-w-[130px] justify-end">Jul 2025 - Present <br />| {getDurationFromJuly2025()}</div>
           
           {/* RIGHT */}
           <div className="">

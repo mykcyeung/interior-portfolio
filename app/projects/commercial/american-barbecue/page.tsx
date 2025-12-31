@@ -2,6 +2,8 @@ import Image from "next/image"
 import NextProjects from "@/components/NextProjects"
 
 const AmericanBarbecue = () => {
+  
+
   return (
     <div className='screen'>
       <div className="flex justify-center items-center flex-col">
