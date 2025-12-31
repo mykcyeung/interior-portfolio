@@ -104,7 +104,28 @@ The hand-drawn style also gives the design a more artistic and authentic feel.
 
 </p> 
             </div>
+
+
+            <div className=" flex flex-col jc items-center">
             
+            
+            <Image
+            src="/commercial/american_barbecue/american_barbecue_material.jpg"
+            alt='american_barbecue_material'
+            width={1041}
+            height={657}
+              className='w-[95vw] mb-20'
+              quality={100}
+            />
+            
+            
+            </div>
+            <div className="flex flex-col lg:flex-row justify-center items-center mb-40">
+             <p className='text-xs md:mb-32 mb-28 max-w-[500px] mt-12'>Material selection: using red tones as the main color, with other materials and colors added to balance the look and avoid a monotonous feel.
+
+
+</p> 
+            </div>
 
         </div>
  
